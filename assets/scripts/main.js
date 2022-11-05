@@ -104,8 +104,6 @@ function initFormHandler() {
       recipeObject[`${pair[0]}`] = `${pair[1]}`;
     }
 
-
-
     // B6. TODO - Create a new <recipe-card> element
     let card = document.createElement('recipe-card');
 

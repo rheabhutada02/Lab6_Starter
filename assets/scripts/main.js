@@ -93,7 +93,7 @@ function initFormHandler() {
   sbutton.addEventListener('click', function(e) {
 
     e.preventDefault();
-    
+
     // Steps B4-B9 will occur inside the event listener from step B3
     // B4. TODO - Create a new FormData object from the <form> element reference above
     const formData = new FormData(form);
@@ -114,7 +114,7 @@ function initFormHandler() {
 
     // B8. TODO - Append this new <recipe-card> to <main>
     let main = document.querySelector('main');
-    main.appendChild(card);
+    main.append(card);
 
     // B9. TODO - Get the recipes array from localStorage, add this new recipe to it, and
     //            then save the recipes array back to localStorage

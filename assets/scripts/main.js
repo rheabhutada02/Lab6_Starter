@@ -51,7 +51,7 @@ function addRecipesToDocument(recipes) {
     card.data = {
       imgSrc: recipes[i].imgSrc,
       imgAlt: recipes[i].imgAlt,
-      titleLnk: recipes[i].imgAlt,
+      titleLnk: recipes[i].titleLnk,
       titleTxt: recipes[i].titleTxt,
       organization: recipes[i].organization,
       rating: recipes[i].rating,
